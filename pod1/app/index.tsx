@@ -1,4 +1,5 @@
 import ActionCard from '@/components/ActionCard'
+import ContactList from '@/components/ContactList'
 import ElevatedCards from '@/components/ElevatedCards'
 import FancyCard from '@/components/FancyCard'
 import FlatCards from '@/components/FlatCards'
@@ -14,6 +15,7 @@ const index = () => {
             <ElevatedCards/>
             <FancyCard/>
             <ActionCard/>
+            <ContactList/>
         </ScrollView>
     </SafeAreaView>
   )
